@@ -13,6 +13,10 @@ body {
     font-family: "Righteous",sans-serif;
 }
 
+
+/*Header y nav*/
+
+
 .header {
     display: flex;
     flex-direction: column;
@@ -65,6 +69,9 @@ body {
 }
 
 
+/*footer*/
+
+
 footer {
     margin: 20px auto;
     background-color: black;
@@ -77,6 +84,9 @@ h4 {
     text-align: center;
     color: white;
 }
+
+
+
 /*index*/
 
 
@@ -214,6 +224,41 @@ h4 {
 /*menu*/
 
 
+.hamburguesas {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+.sucursal {
+    margin-left:0px;
+    width: 1000px;
+    height: auto;
+}
 
+
+.hamburguesas {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.hamburguesas div {
+    margin: 10px;
+}
+
+
+.hamburguesas div img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 2%;
+}
 
 
