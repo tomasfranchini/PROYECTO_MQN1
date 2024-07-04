@@ -305,6 +305,17 @@ h4 {
 
 /*contacto*/
 
+
+.contacto__formulario{
+    text-align: center;
+    font-size: x-large;
+    width: 500px;
+    margin: 20px auto;
+    background-color: orange;
+    
+}
+
+
 .formulario {
     max-width: 600px;
     background-color: #fff;
@@ -352,3 +363,4 @@ h4 {
 .formulario input[type="submit"]:hover {
     background-color: #45a049;
 }
+
