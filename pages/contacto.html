@@ -42,19 +42,21 @@
         </nav>
     </header>
     <main>
-        <section class="tu__hamburguesa">
-            <div class="col1">
-                <h2 class="subt">TU HAMBURGUESA FAVORITA</h2>
-                <h3>Pan - Queso - Carne...</h3>
-                <p>como algo tan simple puede ser tan rico?... nos preguntamos lo mismo todos los dias.</p>
-            </div>
-            <div class="col2">
-                <img class="hamburguesa" src="./img/hamburguesa3.jpg" alt="">
-            </div>
-        </section>
-        <section class="">
-            
-        </section>
+        <div class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="submit.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9,12}" required>
+                    <small>Formato: 9 a 12 dígitos numéricos</small>
+                <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer>
         <h4>mail 💌 info@mqnburger.com</h4>

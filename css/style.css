@@ -302,3 +302,53 @@ h4 {
     border-radius: 2%;
 }
 
+
+/*contacto*/
+
+.formulario {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+
+.formulario label,
+
+
+.formulario input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.formulario input[type="text"],
+
+.formulario input[type="email"],
+
+.formulario input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.formulario input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: #45a049;
+}
